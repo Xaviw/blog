@@ -1,0 +1,18 @@
+{
+  "name": "blog-vuepress",
+  "version": "1.0.0",
+  "description": "my blog by vuepress",
+  "main": "index.js",
+  "author": "xavi",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.3"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.10"
+  }
+}
